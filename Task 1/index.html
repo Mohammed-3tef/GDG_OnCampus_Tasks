@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a description of the page.">
+    <meta name="author" content="Mohammed Atef">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Mohammed Atef</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Mohammed Atef</h1>
+        <nav class="navBar">
+            <ul><a href="#aboutMe">About Me</a></ul>
+            <ul><a href="#projects">Projects</a></ul>
+            <ul><a href="#skills">Skills</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section class="aboutMe" id="aboutMe">
+            <h2 class="sectionTitle">About Me</h2>
+            <img src="./assets/img/profile.jpg" alt="Profile Picture" width="150px">
+            <p>
+                Hi, I'm Mohammed Atef. I'm a student at the Faculty of Computers and Artificial Intelligence, Cairo University. I'm interested in web development and I'm currently learning it.
+            </p>
+        </section>
+        
+        <section class="projects" id="projects">
+            <h2 class="sectionTitle">My Projects</h2>
+            
+            <ul>
+                <li>
+                    <strong>Tic Tac Masterpiece:</strong>
+                    <ul>
+                        <li>
+                            A modern, interactive, and visually appealing implementation of the classic Tic Tac Toe game with a graphical user interface (GUI). Play against a friend or challenge a random computer player to test your strategy and decision-making skills!
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Vole Machine Language Simulator:</strong>
+                    <ul>
+                        <li>
+                            The Vole Machine Language Simulator GUI is a graphical application designed to simulate the operations of a simple CPU using Qt.
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <strong>Document Similarity:</strong>
+                    <ul>
+                        <li>
+                            Task Manager is a C++ program that displays and manages processes running on your system. The program interacts with the tasklist command to retrieve and parse details about active processes, including:
+                            <ul>
+                                <li>Image Name</li>
+                                <li>PID (Process ID)</li>
+                                <li>Session Name</li>
+                                <li>Session ID</li>
+                                <li>Memory Usage</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </section>
+        
+        <section class="skills" id="skills">
+            <h2 class="sectionTitle">My Skills</h2>
+            <ul>
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2 class="sectionTitle">Projects Table</h2>
+            <table class="projectsTable" border="1">
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies Used</th>
+                </tr>
+                
+                <tr>
+                    <td>Tic Tac Masterpiece</td>
+                    <td>A modern, interactive, and visually appealing implementation of the classic Tic Tac Toe game with a graphical user interface (GUI). Play against a friend or challenge a random computer player to test your strategy and decision-making skills!</td>
+                    <td>
+                        <ul>
+                            <li>C++</li>
+                            <li>Qt</li>
+                        </ul>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Vole Machine Language Simulator</td>
+                    <td>The Vole Machine Language Simulator GUI is a graphical application designed to simulate the operations of a simple CPU using Qt.</td>
+                    <td>
+                        <ul>
+                            <li>C++</li>
+                            <li>Qt</li>
+                        </ul>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Document Similarity</td>
+                    <td>Task Manager is a C++ program that displays and manages processes running on your system. The program interacts with the tasklist command to retrieve and parse details about active processes, including:
+                        <ul>
+                            <li>Image Name</li>
+                            <li>PID (Process ID)</li>
+                            <li>Session Name</li>
+                            <li>Session ID</li>
+                            <li>Memory Usage</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>C++</ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="contact" id="contact">
+            <h2 class="sectionTitle">Contact Me</h2>
+            <form action="" autocomplete="on" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section class="multimediaSection">
+            <h2 class="sectionTitle">Watch My Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ePHmiIo0TdQ?si=wgUVTUlVY1o0v9i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <audio src="./assets/audio/اغنية رمضان جانا  مسرحية العيال كبرت.mp3" controls></audio>
+        </section>
+        
+    </main>
+    
+    <footer class="footer">
+        <a href="https://mohammedatefportfolio.vercel.app/Assets/Mohammed%20Atef%20Resume.pdf" target="_blank">Download Resume</a>
+        <a href="https://www.linkedin.com/in/mohammed-atef-b0a408299/" target="_blank">LinkedIn</a>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
