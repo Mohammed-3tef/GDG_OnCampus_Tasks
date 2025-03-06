@@ -32,7 +32,7 @@ body {
 
 main {
     background-color: var(--Grey-800);
-    max-width: 40%;
+    max-width: 30%;
     padding: 35px 15px;
     border-radius: 10px;
     display: flex;
