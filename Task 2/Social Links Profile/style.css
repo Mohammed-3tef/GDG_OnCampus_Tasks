@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --Blue: #00b7ff;
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Grey-900);
+    min-height: 100vh;
+    align-content: center;
+    a {
+        color: var(--White);
+        background-color: var(--Grey-700);
+        border-radius: 5px;
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+}
+
+main {
+    background-color: var(--Grey-800);
+    max-width: 40%;
+    padding: 35px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    
+    img {
+        max-width: 25%;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .name {
+        color: var(--White);
+    }
+    
+    .address {
+        color: var(--Blue);
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .details {
+        color: var(--White);
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+        width: 100%;
+        a {
+            width: 80%;
+            text-align: center;
+            text-decoration: none;
+            margin: 0 auto;
+            transition: 250ms;
+        }
+        a:hover {
+            color: var(--Grey-900);
+            background-color: var(--Blue);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 75%;
+        img {
+            max-width: 35%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        max-width: 85%;
+        img {
+            max-width: 45%;
+        }
+        .links a {
+            width: 90%;
+        }
+    }
+}

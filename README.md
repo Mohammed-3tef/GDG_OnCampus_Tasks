@@ -66,3 +66,48 @@
 - Provide a **download link** for your resume (`resume.pdf`).
 
 </details>
+
+### 📌 **Task 2:** 
+- #### Recipe Page
+
+  <details>
+    <summary>🔹 Click to expand details</summary>
+    
+    <div align="center">
+      <img src="./Task 2/Recipe Page/assets/preview.jpg" width="90%">
+    </div>
+    
+    This task will be a challenge from Frontend Mentor. Here is the challenge link: 
+    https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
+    
+    **Instructions:**
+    - Download the project files.
+    - Pay special attention to the style-guide file, as it contains all the details, colors, and elements you need.
+    - Start coding, champion! 
+    
+    **Additional Requirement:**
+    In the Preparation Time section, add a <span> inside and place the letter X inside it. Then, use the position property to move it to the top-right corner of the section.
+    
+    **Important Notes:**
+    - You do not need to make the design responsive since we haven’t covered that yet.
+    - It’s okay if your design is not 100% perfect. The goal is for you to practice and apply everything we learned in the session.
+    
+    Good luck!
+
+  </details>
+
+- #### Social Links Profile (Optional)
+
+  <details>
+    <summary>🔹 Click to expand details</summary>
+    
+    <div align="center">
+      <img src="./Task 2/Social Links Profile/assets/preview.jpg" width="90%">
+    </div>
+    
+    If you want to practice more and improve your skills, I highly recommend this challenge (not mandatory): 
+    https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ
+
+    Happy coding !!
+
+  </details>
