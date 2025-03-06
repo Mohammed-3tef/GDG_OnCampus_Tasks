@@ -12,8 +12,8 @@ This is a solution to the **Social Links Profile Challenge** from [Frontend Ment
 
 ## 🛠️ Technologies Used
 - **HTML**
-- **CSS** (Flexbox & Grid for layout)
-- **Google Fonts** (for typography)
+- **CSS**
+- **Google Fonts**
 
 ## 📂 Project Structure
 ```
@@ -25,14 +25,6 @@ This is a solution to the **Social Links Profile Challenge** from [Frontend Ment
 ├── 📜 LICENSE
 ├── 📜 .gitignore
 ```
-
-## 📖 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mohammed-3tef/Social_Links_Profile.git
-   ```
-2. Open `index.html` in your browser.
-
 
 ## 💡 Challenges & Learnings
 - Practiced **hover effects** to enhance user interaction.

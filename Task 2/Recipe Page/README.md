@@ -12,7 +12,7 @@ This is a solution to the **Recipe Page Challenge** from [Frontend Mentor](https
 
 ## 🛠️ Technologies Used
 - **HTML**
-- **CSS** (Flexbox & Grid for layout)
+- **CSS**
 - **[Frontend Mentor Starter Files](https://www.frontendmentor.io/challenges)**
 
 ## 📂 Project Structure
@@ -26,17 +26,6 @@ This is a solution to the **Recipe Page Challenge** from [Frontend Mentor](https
 ├── 📜 LICENSE
 ├── 📜 .gitignore
 ```
-
-
-## 📖 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/recipe-page.git
-   ```
-2. Open `index.html` in your browser.
-
-## 📌 Live Demo
-🔗 [View Live Demo](https://your-live-demo-link.com) *(Replace with actual link)*
 
 ## 💡 Challenges & Learnings
 - Learned how to structure a recipe page using semantic HTML.
