@@ -1,0 +1,125 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+:root {
+    --backgroundColor: #1C1D1F;
+    --gray: #494B51;
+    --green: #BFE2CC;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--backgroundColor);
+    color: white;
+    height: 100vh;
+    align-content: center;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .sectionTitle {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .marginTitle {
+        color: var(--gray);
+        width: 40%;
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+    
+    .cardsDiv{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 15px;
+        
+        .card{
+            background-color: var(--gray);
+            padding: 15px;
+            border-radius: 25px;
+            transition: 350ms;
+            
+            .imgDiv{
+                position: relative;
+                padding-bottom: 15px;
+                
+                img {
+                    border-radius: 15px;
+                    width: 100%;
+                    transition: 350ms;
+                }
+                
+                span {
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                    color: black;
+                    background-color: yellow;
+                    border-radius: 25px;
+                    padding: 5px 10px;
+                    font-size: 0.75rem;
+                    font-weight: bold;
+                }
+            }
+            
+            .cardDetails {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                
+                .firstLine {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    .price {
+                        color: black;
+                        background-color: var(--green);
+                        border-radius: 25px;
+                        padding: 5px 10px;
+                        font-size: 0.75rem;
+                        font-weight: bold;
+                    }
+                }
+                
+                .secondLine {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+        
+        .card:hover {
+            transform: scale(1.025);
+            img{
+                transform: scale(1.035);
+            }
+        }
+    }
+}
+
+/* ---------------------------------------- RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 15px;
+    }
+    
+    .mainSection {
+        .marginTitle{
+            width: 90%;
+        }
+        .cardsDiv {
+            flex-wrap: wrap;
+        }
+    }
+}

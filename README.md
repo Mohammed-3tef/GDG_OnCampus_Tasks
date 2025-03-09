@@ -67,7 +67,7 @@
 
 </details>
 
-### 📌 **Task 2:** 
+### 📌 **Task 2:** Recipe Page & Social Links Profile
 - #### Recipe Page
 
   <details>
@@ -109,5 +109,16 @@
     https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ
 
     Happy coding !!
+
+  </details>
+  
+### 📌 **Task 3:** Our Collection
+
+<details>
+  <summary>🔹 Click to expand details</summary>
+    
+  <div align="center">
+    <img src="./Task 3/assets/preview.png" width="90%">
+  </div>
 
   </details>
