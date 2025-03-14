@@ -100,6 +100,7 @@ body {
         
         .card:hover {
             transform: scale(1.025);
+            background: #5c5e63;
             img{
                 transform: scale(1.035);
             }

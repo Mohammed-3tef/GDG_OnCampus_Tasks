@@ -112,13 +112,24 @@
 
   </details>
   
-### 📌 **Task 3:** Our Collection
+### 📌 **Task 3:** Coffee Collection
 
 <details>
   <summary>🔹 Click to expand details</summary>
     
   <div align="center">
     <img src="./Task 3/assets/preview.png" width="90%">
+  </div>
+
+  </details>
+
+### 📌 **Task 4:** Soundsnap
+
+<details>
+  <summary>🔹 Click to expand details</summary>
+    
+  <div align="center">
+    <img src="./Task 4/assets/preview.png" width="90%">
   </div>
 
   </details>
