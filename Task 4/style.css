@@ -54,9 +54,14 @@ section:last-child {
       }
    }
    .navBar {
-      width: 35%;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5rem;
       ul {
          display: flex;
+         width: 100%;
          justify-content: space-between;
          list-style: none;
          li a {
@@ -65,6 +70,18 @@ section:last-child {
          }
       }
       ul li a:hover {
+         color: var(--black);
+      }
+      .links {
+         display: flex;
+         gap: 1.5rem;
+         a {
+            color: var(--Dark-gray);
+            font-size: 1.5rem;
+            transition: 300ms;
+         }
+      }
+      .links a:hover {
          color: var(--black);
       }
    }
@@ -391,6 +408,14 @@ section:last-child {
       }
       .navBar {
          width: 100%;
+         flex-direction: column;
+         gap: 1.5rem;
+         .links {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            
+         }
       }
    }
    
