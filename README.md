@@ -133,3 +133,18 @@
   </div>
 
   </details>
+
+### 📌 **Task 7:** Problem Solving
+
+<details>
+  <summary>🔹 Click to expand details</summary>
+    
+  <div>
+    - <a href="https://leetcode.com/problems/to-be-or-not-to-be/?envType=study-plan-v2&envId=30-days-of-javascript">Problem 1</a>
+    - <a href="https://leetcode.com/problems/counter-ii/?envType=study-plan-v2&envId=30-days-of-javascript">Problem 2</a>
+    - <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150">Problem 3</a>
+    - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150">Problem 4</a>
+    - <a href="https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150">Problem 5</a>
+  </div>
+
+  </details>
