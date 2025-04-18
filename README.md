@@ -152,6 +152,6 @@
 <details>
   <summary>🔹 Click to expand details</summary>
     
-  All Problems Exist in this PDF File: [The Problems]()
+  All Problems Exist in this PDF File: [The Problems](https://github.com/Mohammed-3tef/GDG_OnCampus_Tasks/blob/main/Task%207/The%20Problems.pdf)
 
 </details>
