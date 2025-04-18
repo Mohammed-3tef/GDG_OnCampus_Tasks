@@ -94,7 +94,7 @@
     
     Good luck!
 
-  </details>
+</details>
 
 - #### Social Links Profile (Optional)
 
@@ -110,7 +110,7 @@
 
     Happy coding !!
 
-  </details>
+</details>
   
 ### 📌 **Task 3:** Coffee Collection
 
@@ -121,7 +121,7 @@
     <img src="./Task 3/assets/preview.png" width="90%">
   </div>
 
-  </details>
+</details>
 
 ### 📌 **Task 4:** Soundsnap
 
@@ -132,19 +132,26 @@
     <img src="./Task 4/assets/preview.png" width="90%">
   </div>
 
-  </details>
+</details>
 
-### 📌 **Task 7:** Problem Solving
+### 📌 **Task 6:** Problem Solving I
 
 <details>
   <summary>🔹 Click to expand details</summary>
     
-  <div>
-    - <a href="https://leetcode.com/problems/to-be-or-not-to-be/?envType=study-plan-v2&envId=30-days-of-javascript">Problem 1</a>
-    - <a href="https://leetcode.com/problems/counter-ii/?envType=study-plan-v2&envId=30-days-of-javascript">Problem 2</a>
-    - <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150">Problem 3</a>
-    - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150">Problem 4</a>
-    - <a href="https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150">Problem 5</a>
-  </div>
+  - [Problem 1](https://leetcode.com/problems/to-be-or-not-to-be/?envType=study-plan-v2&envId=30-days-of-javascript)
+  - [Problem 2](https://leetcode.com/problems/counter-ii/?envType=study-plan-v2&envId=30-days-of-javascript)
+  - [Problem 3](https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150)
+  - [Problem 4](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150)
+  - [Problem 5](https://leetcode.com/problems/majority-element/?envType=study-plan-v2&envId=top-interview-150)
 
-  </details>
+</details>
+
+### 📌 **Task 7:** Problem Solving II
+
+<details>
+  <summary>🔹 Click to expand details</summary>
+    
+  All Problems Exist in this PDF File: [The Problems]()
+
+</details>
