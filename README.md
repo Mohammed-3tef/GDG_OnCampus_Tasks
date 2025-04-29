@@ -155,3 +155,13 @@
   All Problems Exist in this PDF File: [The Problems](https://github.com/Mohammed-3tef/GDG_OnCampus_Tasks/blob/main/Task%207/The%20Problems.pdf)
 
 </details>
+
+### 📌 **Task 8:** To-Do App
+
+<details>
+  <summary>🔹 Click to expand details</summary>
+    
+  <div align="center">
+    <img src="./Task 8/assets/preview.png" width="90%">
+  </div>
+</details>

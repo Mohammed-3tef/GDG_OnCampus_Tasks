@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+
+        <div class="input-container">
+            <input type="text" id="input-field" placeholder="Add a new task...">
+            <button class="submit-button">Add Task</button>
+        </div>
+
+        <div class="filter-container">
+            <div class="radio-group">
+                <input type="radio" name="filter" checked id="value-1">
+                <label for="value-1">In Progress</label>
+
+                <input type="radio" name="filter"  id="value-2">
+                <label for="value-2">Completed</label>
+
+                <input type="radio" name="filter" id="value-3">
+                <label for="value-3">All Tasks</label>
+            </div>
+        </div>
+
+        <div class="bottom"></div>
+
+    </div>
+    <script src="code.js"></script>
+</body>
+
+</html>

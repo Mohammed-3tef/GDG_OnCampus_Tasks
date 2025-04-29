@@ -1,0 +1,174 @@
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    display :flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+
+#input-field{
+    flex-grow: 1;
+    padding: 15px;
+    border : 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#input-field:focus{
+    outline: none;
+    border-color: #3195d7;
+}
+
+.submit-button{
+    padding: 12px 20px;
+    background-color: #3195d7;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover{
+    background-color:#2980b9;
+}
+
+.filter-container{
+    margin-bottom: 20px;
+}
+
+.radio-group{
+    display: flex;
+    gap: 15px;
+}
+
+.radio-group label{
+    padding: 10px 15px;
+    background-color :#ecf0f1;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.radio-group input[type="radio"]{
+    display: none;
+}
+
+.radio-group input[type="radio"]:checked + label{
+    background-color: #3498db;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    transition: all 0.3s;
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    transform: translateY(-4px);
+}
+
+.task-text{
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.delete-button, .edit-button, .save-button{
+    padding: 10px 15px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.delete-button:hover{
+    background:rgb(125, 34, 24);
+}
+
+.edit-button{
+    background: #ffa200;
+}
+
+.edit-button:hover{
+    background: #c87f00;
+}
+
+.save-button{
+    background: rgb(0, 166, 0);
+}
+
+.save-button:hover{
+    background: green;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.edit-input:hover, .edit-input:focus{
+    border-color: #3498db;
+    outline: none;
+}
+
+.container-checkbox{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.checkmark{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
